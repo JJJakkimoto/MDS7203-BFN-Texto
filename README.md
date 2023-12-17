@@ -6,6 +6,10 @@ Se utiliza como red neuronal base una MLP con activación Silu.
 Para una implementación más completa, consultar el github oficial de BFN : https://github.com/nnaisense/bayesian-flow-networks
 como también una implementación simple de BFN(en construcción) : https://github.com/Algomancer/Bayesian-Flow-Networks
 
+IMPORTANTE: Se dejo un fragmento de código al final del archivo  que buscaba utilizar un dataset de preguntas y respuestas de wikipedia
+el cual no pudo ser implementado de manera correcta, sin embargo, se deja propuesta la idea de intentar usar un transformer como red base
+ y la unión de preguntas + respuestas para este experimento
+ 
 COMO USAR 
 Para utilizar esta repo, es necesario tener disponible las librerias de numpy, matplotlib, torch y DataLoader junto a TensorDataset
 Al principio del código del archivo MDS7203_proyecto.ipynb se especifican las funcionas necesarias para implementar BFN como también la creación del dataset XOR.
